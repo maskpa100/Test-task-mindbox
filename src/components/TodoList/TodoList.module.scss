@@ -1,0 +1,42 @@
+.container {
+  background-color: #fff;
+  .item {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px 0 10px 6px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &.notSelected {
+      .checkbox {
+        border: 1px solid #c8c8c8;
+      }
+      .text {
+        color: #000;
+      }
+    }
+    &.selected {
+      .checkbox {
+        border: 1px solid #04880480;
+        .icon {
+          color: #04880480;
+        }
+      }
+      .text {
+        color: #bdbdbd;
+        text-decoration: line-through;
+      }
+    }
+    .checkbox {
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 22px;
+    }
+  }
+}

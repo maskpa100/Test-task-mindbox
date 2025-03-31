@@ -1,12 +1,17 @@
 .container {
   position: relative;
+  border-bottom: 2px solid #e3e3e3;
   .icon {
     position: absolute;
+    color: #dbdbdb;
+    font-size: 34px;
+    top: 18px;
+    left: 13px;
   }
   .input {
     width: 100%;
     border: none;
-    padding: 20px 0 20px 50px;
+    padding: 20px 0 20px 56px;
     font-size: 30px;
     color: #515151;
     &:focus {

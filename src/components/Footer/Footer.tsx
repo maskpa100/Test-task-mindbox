@@ -9,7 +9,7 @@ function Footer() {
         <div>Active</div>
         <div className={s.active}>Completed</div>
       </div>
-      <div>Clear completed</div>
+      <div className={s.clearCompleted}>Clear completed</div>
     </div>
   );
 }
