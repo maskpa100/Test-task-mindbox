@@ -15,8 +15,9 @@ function TodoList() {
   });
   return (
     <div className={s.container}>
-      {filteredTasks.map((item) => (
+      {filteredTasks.map((item, index) => (
         <div
+          key={index}
           onClick={() => dispatch(toggleTaskStatus(item.id))}
           className={`${s.item} ${
             item.status === "active" ? s.notSelected : s.selected
