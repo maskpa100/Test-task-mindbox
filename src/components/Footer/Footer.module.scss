@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  color: rgb(115, 115, 115);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px #eee,
+    0 20px 1px -10px rgba(0, 0, 0, 0.15);
+  div {
+    padding: 1px 6px;
+    font-size: 15px;
+  }
+  .selectTasks {
+    display: flex;
+    gap: 17px;
+    .active {
+      border: 2px solid #fbd3d3f2;
+      border-radius: 7px;
+    }
+  }
+}
